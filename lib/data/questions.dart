@@ -17,10 +17,30 @@ QuizQuestion('How did Edward elric lose his leg in FMA',
 ]),
 QuizQuestion('How did Scar lose his Arm in FMA', 
 [
-  'Putting his brothers soul in a tattoo', //correct answer
-  'Killby',
+  'Killby  ', //correct answer
+  'Putting his brothers soul in a tattoo',
   'he didnt lose his Legs',
   'Father took them '
 ]),
-
+QuizQuestion('What is the most dangerus area in ark', 
+[
+  'Swamp', //correct answer
+  'Red woods',
+  'Crystal caves',
+  'Dessert '
+]),
+QuizQuestion('How do you train a dragon', 
+[
+  'pet it ', //correct answer
+  'give it a stick',
+  'axe it a question ',
+  'there is no dragons here '
+]),
+QuizQuestion('Is there a war in ba sing se', 
+[
+  'there is no war ', //correct answer
+  'its outside the wall ',
+  'the dai lee ',
+  'yes what about it '
+]),
 ];
