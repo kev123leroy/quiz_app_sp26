@@ -22,6 +22,12 @@ List<Map<String, Object>> getSummaryData(){
   @override
   Widget build(context)
   {
+    final summaryData = getSummaryData();
+    final numTotalQuestions = getSummaryData().length;
+    final numTotalCorrect =summaryData.where((data){
+      return data['correct_answer'] == data['user_answer'];
+      }
+    ).length;
     return SizedBox(
       width: double.infinity,
       child: Container(
@@ -29,7 +35,7 @@ List<Map<String, Object>> getSummaryData(){
         child:  Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children:  [
-            const Text('You answered X out of Y questions Correctly'),
+            Text('You answered $numTotalCorrect out of $numTotalQuestions questions Correctly'),
             const SizedBox(height:30,),
             const Text('List of Answers and Questions'),
             const SizedBox(height:30,),

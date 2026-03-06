@@ -17,7 +17,7 @@ class StartScreen extends StatelessWidget{
             const SizedBox(height: 80),
             Text(
               "challenge yourself on this quiz!",
-              style: TextStyle(color: Color.fromARGB(255, 263, 208, 265), fontSize: 22),
+              style: TextStyle(color: Color.fromARGB(255, 255, 248, 255), fontSize: 22),
             ),
             const SizedBox(height: 30),
            OutlinedButton.icon(
